@@ -1,0 +1,112 @@
+body,a,ul,p,div,h1,h2,h3,h4,h5,h6,img{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #F8F8F8;
+}
+header{
+	width: 100%;
+	height: 3.3rem;
+	background-color: #282C35;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.return{
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	float: left;
+	color: #FFF;
+	margin-left: 0.55rem;
+}
+.light{
+	font-size: 1.125rem;
+	line-height: 3.3rem;
+	float: right;
+	color: #FFF;
+	margin-top: -3.5rem;
+	margin-right: 0.55rem;
+}
+.zhong{
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	text-align: center;
+	color: #FFF;
+}
+nav{
+	margin-top: 3rem;
+	width: 100%;
+	height: 3.3em;
+	background-color: #F0F0F0;
+}
+.ret a{
+	color:#347AB6;
+	font-size: 1.5rem;
+}
+.ret{
+	float: left;
+	font-weight: bold;
+	margin-left: 1.05rem;
+	line-height: 3.3rem;
+}
+.rj{
+	text-align: center;
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	color: #323232;
+}
+.c{
+	width: 100%;
+	height: 2.55rem;
+	background-color: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+}
+.c p{
+	font-size: 0.9rem;
+	margin-left: 1.25rem;
+	line-height: 2.55rem;
+	color: #808080;
+}
+.c p span{
+	color: #923F53;
+}
+.shu{
+	width: 100%;
+	height: 2.875rem;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #CCC;
+}
+.shu input{
+	margin-left: 1rem;
+	width: 90%;
+	height: 2.75rem;
+	font-size: 1rem;
+	border: none;
+	color: #CCC;
+}
+.sure{
+	width: 92%;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.05rem;
+}
+.sure input{
+	width: 92%;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1AAC19;
+	font-size: 1.2rem;
+	color: #FFF;
+	border-color: #428C41;
+	border-radius: 6px;
+}

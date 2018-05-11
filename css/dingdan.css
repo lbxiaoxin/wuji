@@ -1,0 +1,207 @@
+*{
+	padding: 0;margin: 0;
+}
+ul{
+	list-style: none;
+}
+body{
+	background-color: #F8F8F8;
+}
+header{
+	width: 100%;
+	height: 3.3rem;
+	background-color: #20252B;
+}
+header p{
+	font-size: 1rem;
+	color: #FFF;
+}
+header .fl{
+	margin-left: 0.5rem;
+	float: left;
+	line-height: 3.3rem;
+}
+header .ri{
+	float: right;
+	font-size: 1.125rem;
+	margin-top: -2.25rem;
+	margin-right: 0.5rem;
+}
+header .cen
+{
+	text-align: center;
+	line-height: 3.3rem;
+}
+nav{
+	width: 100%;
+	height: 2.775rem;
+	background-color: #F0F0F0;
+}
+nav .fl{
+	color: #347AB6;
+	font-size: 0.875rem ;
+	font-weight: bold;
+	margin-left: 0.5rem;
+	line-height: 2.775rem;
+}
+nav .ri{
+	float: right;
+	color: #347AB6;
+	font-size: 0.8rem;
+	margin-right: 0.5rem;
+	margin-top: 1rem;
+	position: relative;
+}
+nav .cen{
+	text-align: center;
+	font-size: 0.875rem ;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.775rem;
+}
+nav span{
+	float: right;
+}
+nav li{
+	width: 30%;
+	float: left;
+}
+.ri ul{
+	width: 300%;
+	height: 5.675rem;
+	border: 2px solid #CCC;
+	position: absolute;
+	top: 2rem; left: -220%;
+	z-index: 10;
+	background-color: #FFF;
+	border-radius: 5px;
+	display: none;
+	box-shadow: 0 0.05rem 0.5rem #000;
+}
+.ri ul li{
+	float: left;
+	width: 40%;
+	height: 2rem;
+	border: 1px solid;
+	margin-left: 7%;
+	margin-top: 0.625rem;
+	text-align: center;
+	line-height: 2rem;
+	color: #FFF;
+	background-color: #5BC0DE;
+	border-radius: 5px;
+}
+.ri:hover ul{
+	display: block;
+}
+.centent{
+	width: 100%;
+	height: 12.5rem;
+}
+.centent ul{
+	width: 100%;
+}
+.centent ul li{
+	width: 100%;
+	height: 2.85rem;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	margin-top: 1.35rem;
+	background-color: #FFF;
+	font-size: 0.8rem;
+	line-height: 2.85rem;
+	position: relative;
+}
+.centent ul li input{
+	width: 91%;
+	border: none;
+	height: 2.85rem;
+	position: absolute;
+	top: 0; left: 5rem;
+}
+.centent ul li p{
+	height: 2.85em;
+	margin-left: 1rem;
+	line-height: 2.85rem;
+}
+.centent ul li .b{
+
+	height: 2.85em;
+	margin-left: 1rem;
+	border-right: 2px solid #CCC;
+}
+.sure{
+	margin-top: 20%;
+	margin-left: 3%;
+}
+.sure p{
+	width: 4rem;
+	height: 1.85rem;
+	border-color: #1F901E;
+	background-color: #1AAC19;
+	text-align: center;
+	line-height: 1.85rem;
+	font-size: 0.8rem;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 2.675rem;
+	background-color: #2E558C;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+footer ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 2.675rem;
+}
+footer ul li{
+	width: 33%;
+	height: 2.675rem;
+	float: left;
+	font-size: 1.125rem;
+	text-align: center;
+	line-height: 2.675rem;
+}
+footer ul li p{
+	color: #FFF;
+}
+footer ul li .nei{
+	margin-left: 0.5rem;
+	width: 100%;
+	height: 10rem;
+	background-color: #FFF;
+	border-radius: 3px;
+	margin-top: -13rem;
+	display: none;
+}
+footer ul li .nei li{
+	float: none;
+	text-align: center;
+	line-height: 2.5rem;
+	width: 100%;
+	font-size: 1.125rem;
+	height: 2rem;
+}
+footer ul li:hover{
+	background-color: rgba(0, 0, 0, .2);
+}
+footer ul li:hover .nei{
+	display: block;
+}

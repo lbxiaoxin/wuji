@@ -1,0 +1,166 @@
+body,a,ul,p,div,h1,h2,h3,h4,h5,h6,img{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #F8F8F8;
+}
+header{
+	width: 100%;
+	height: 3.3rem;
+	background-color: #282C35;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.return{
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	float: left;
+	color: #FFF;
+	margin-left: 0.55rem;
+}
+.light{
+	font-size: 1.125rem;
+	line-height: 3.3rem;
+	float: right;
+	color: #FFF;
+	margin-top: -3.5rem;
+	margin-right: 0.55rem;
+}
+.zhong{
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	text-align: center;
+	color: #FFF;
+}
+nav{
+	margin-top: 3rem;
+	width: 100%;
+	height: 3.3em;
+	background-color: #F0F0F0;
+}
+.ret a{
+	color:#347AB6;
+	font-size: 1.5rem;
+}
+.ret{
+	float: left;
+	font-weight: bold;
+	margin-left: 1.05rem;
+	line-height: 3.3rem;
+}
+.rj{
+	text-align: center;
+	font-size: 1.075rem;
+	line-height: 3.3rem;
+	color: #323232;
+}
+.u1{
+	width: 30%;
+	position: absolute;
+	left: 0;
+}
+.u1 li{
+	width: 100%;
+	height: 2.075rem;
+	border: 2px solid #CCC;
+	margin-top: -0.05rem;
+	text-align: right;
+	line-height: 2.075rem;
+	font-size: 0.8rem;
+}
+.u1 p{
+	margin-right: 1rem;
+}
+.u2 p{
+	margin-left: 1rem;
+}
+.u2{
+	width: 69.9%;
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+.u2 li{
+	width: 100%;
+	height: 2.075rem;
+	border: 2px solid #CCC;
+	margin-top: -0.05rem;
+	text-align: left;
+	line-height: 2.075rem;
+	font-size: 0.8rem;
+}
+.red{
+	color: #A93451;
+}
+.cz{
+	display: inline-block;
+	width: 2.45rem;
+	height: 1.425rem;
+	background-color: #5BB85D;
+	border-right: 3px;
+	color: #FFF;
+	text-align: center;
+	line-height: 1.425rem;
+}
+.bd{
+	display: inline-block;
+	width: 2.45rem;
+	height: 1.425rem;
+	background-color: #D9544F;
+	border-right: 3px;
+	color: #FFF;
+	text-align: center;
+	line-height: 1.425rem;
+}
+footer{
+	width: 100%;
+	height: 2.675rem;
+	background-color: #2E558C;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+footer ul{
+	width: 100%;
+	height: 2.675rem;
+}
+footer ul li{
+	width: 33%;
+	height: 2.675rem;
+	float: left;
+	font-size: 1.125rem;
+	text-align: center;
+	line-height: 2.675rem;
+}
+footer ul li p{
+	color: #FFF;
+}
+footer ul li .nei{
+	margin-left: 0.5rem;
+	width: 100%;
+	height: 10rem;
+	background-color: #FFF;
+	border-radius: 3px;
+	margin-top: -13rem;
+	display: none;
+}
+footer ul li .nei li{
+	float: none;
+	text-align: center;
+	line-height: 2.5rem;
+	width: 100%;
+	font-size: 1.125rem;
+	height: 2rem;
+}
+footer ul li:hover{
+	background-color: rgba(0, 0, 0, .2);
+}
+footer ul li:hover .nei{
+	display: block;
+}
